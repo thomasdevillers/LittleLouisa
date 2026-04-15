@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Little Louisa — Self-Catering in Colleen Glen, PE",
     description:
-      "Two bedrooms, two bathrooms, a outdoor fireplace, and a garden. Your quiet place in Port Elizabeth.",
+      "Two bedrooms, two bathrooms, an outdoor fireplace, and a garden. Your quiet place in Port Elizabeth.",
     url: "https://littlelouisa.co.za",
     siteName: "Little Louisa",
     images: [
@@ -56,6 +56,9 @@ export const metadata: Metadata = {
     images: ["/photos/outside.jpg"],
   },
   metadataBase: new URL("https://littlelouisa.co.za"),
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({
@@ -84,8 +87,10 @@ export default function RootLayout({
       latitude: -33.85,
       longitude: 25.75,
     },
-    image: "/photos/outside.jpg",
+    image: "https://littlelouisa.co.za/photos/outside.jpg",
     priceRange: "R495 - R595 per person per night",
+    checkinTime: "14:00",
+    checkoutTime: "10:00",
     amenityFeature: [
       { "@type": "LocationFeatureSpecification", name: "Free WiFi", value: true },
       { "@type": "LocationFeatureSpecification", name: "Free Parking", value: true },
@@ -99,7 +104,7 @@ export default function RootLayout({
 
   return (
     <html
-      lang="en"
+      lang="en-ZA"
       className={`${newsreader.variable} ${manrope.variable} scroll-smooth`}
     >
       <head>
