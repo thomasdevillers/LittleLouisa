@@ -7,7 +7,7 @@ const photos = [
   { src: "/photos/livingroom2.jpg", label: "Living Area" },
   { src: "/photos/kitchen.jpg", label: "Kitchen" },
   { src: "/photos/mainbedroom.jpg", label: "Main Bedroom" },
-  { src: "/photos/secondbedroom.jpg", label: "Second Bedroom" },
+  { src: "/photos/2ndbedroom.jpg", label: "Second Bedroom" },
   { src: "/photos/bathroom.jpg", label: "Bathroom" },
   { src: "/photos/bathroom2.jpg", label: "En-Suite" },
   { src: "/photos/fireplace.jpg", label: "Fireplace" },

@@ -17,6 +17,10 @@ export const metadata: Metadata = {
   title: "Little Louisa | Self-Catering Guest House in Colleen Glen, Port Elizabeth",
   description:
     "A quiet self-catering retreat nestled in Colleen Glen, Port Elizabeth. Two bedrooms, two bathrooms, garden, fireplace, and everything you need for a peaceful stay.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
   keywords: [
     "Little Louisa",
     "self-catering",
@@ -30,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Little Louisa — Self-Catering in Colleen Glen, PE",
     description:
-      "Two bedrooms, two bathrooms, a fireplace, and a garden. Your quiet place in Port Elizabeth.",
+      "Two bedrooms, two bathrooms, a outdoor fireplace, and a garden. Your quiet place in Port Elizabeth.",
     url: "https://littlelouisa.co.za",
     siteName: "Little Louisa",
     images: [

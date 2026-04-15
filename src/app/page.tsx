@@ -185,9 +185,11 @@ export default function Home() {
                 { label: "Private Garden", desc: "Step outside into a peaceful garden — your own green space to read, breathe, or do absolutely nothing." },
                 { label: "Free WiFi", desc: "Stay connected when you need to. Disconnect when you don't." },
                 { label: "Secure Parking", desc: "Off-street parking on the property. Your car rests as well as you do." },
-                { label: "Two Bathrooms", desc: "No queues. Each bedroom has its own bathroom — one with a bath, one with a shower." },
+                { label: "Two Bathrooms", desc: "No queues. Each bedroom has its own bathroom — one with a bath and shower, one with a shower." },
                 { label: "Self-Catering", desc: "Your space, your schedule. No meal times, no housekeeping knocks — just freedom." },
                 { label: "Quiet Location", desc: "Colleen Glen is the kind of neighbourhood where birdsong is the loudest thing you'll hear." },
+                { label: "Netflix & TV", desc: "Unwind with a flat-screen TV and Netflix — for when the fireplace alone isn't enough entertainment." },
+                { label: "Nespresso Coffee", desc: "A Nespresso machine and milk frother for proper coffee mornings — no instant compromises." },
               ].map((item) => (
                 <div key={item.label} className="flex flex-col gap-4">
                   <h4 className="uppercase tracking-widest text-[11px] font-bold border-b border-black/10 pb-4">{item.label}</h4>
@@ -216,10 +218,10 @@ export default function Home() {
                   { name: "Sardinia Bay Beach", desc: "Pristine, uncrowded coastline", time: "15 min drive" },
                   { name: "Schoenmakerskop", desc: "Rock pools and coastal walks", time: "18 min drive" },
                   { name: "Kragga Kamma Game Park", desc: "Big five game viewing", time: "10 min drive" },
-                  { name: "The Boardwalk Casino & Entertainment", desc: "Shopping, dining, and cinema", time: "12 min drive" },
-                  { name: "Seaview Lion & Predator Park", desc: "Wildlife encounters", time: "20 min drive" },
+                  { name: "The Boardwalk Casino & Entertainment", desc: "Shopping, dining, and cinema", time: "30 min drive" },
+                  { name: "Seaview Lion & Predator Park", desc: "Wildlife encounters", time: "5 min drive" },
                   { name: "Van Stadens Wildflower Reserve", desc: "Hiking and river gorge views", time: "25 min drive" },
-                  { name: "PE Airport", desc: "Chief Dawid Stuurman International", time: "20 min drive" },
+                  { name: "PE Airport", desc: "Chief Dawid Stuurman International", time: "25 min drive" },
                 ].map((place) => (
                   <div key={place.name} className="flex justify-between items-end border-b border-black/5 pb-4">
                     <div>
@@ -332,7 +334,7 @@ export default function Home() {
                 { q: "Is the kitchen fully equipped?", a: "Yes — stove, oven, microwave, fridge, kettle, toaster, pots, pans, crockery, cutlery, and all the basics. You just need to bring your groceries." },
                 { q: "How far is it from the beach?", a: "The nearest beaches are about 15–20 minutes by car. Sardinia Bay and Schoenmakerskop are both stunning and well worth the short drive." },
                 { q: "Are there special rates for longer stays?", a: "Yes. If you're staying three nights or more, get in touch and we'll work out a rate that suits." },
-                { q: "Is there load shedding backup?", a: "We have gas for cooking and hot water, so you'll still eat well and shower warm regardless of Eskom's plans." },
+                { q: "Is there load shedding backup?", a: "We are off the grid so expect no distruptions to your power due to our solar panels." },
               ].map((faq) => (
                 <details key={faq.q} className="group">
                   <summary className="flex justify-between items-center py-8 cursor-pointer list-none">
