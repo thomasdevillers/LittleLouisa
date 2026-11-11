@@ -65,7 +65,7 @@ export default function Gallery() {
         {[
           { src: "/photos/outsitearea.jpg", alt: "Covered patio with outdoor seating at Little Louisa", label: "Patio" },
           { src: "/photos/outsidearea2.jpg", alt: "Al fresco dining area in the garden at Little Louisa", label: "Al Fresco" },
-          { src: "/photos/outside.jpg", alt: "Little Louisa guest house exterior in Colleen Glen, Port Elizabeth", label: "The Cottage" },
+          { src: "/photos/outside.jpg", alt: "Little Louisa guest house exterior in Colleen Glen, Port Elizabeth", label: "Reception" },
         ].map((p) => (
           <div key={p.src} className="aspect-[4/3] overflow-hidden group relative cursor-pointer" onClick={() => openAt(p.src)}>
             <Image src={p.src} alt={p.alt} fill className="object-cover transition-transform duration-1000 group-hover:scale-105" sizes="(max-width: 768px) 100vw, 33vw" />
