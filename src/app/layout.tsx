@@ -88,7 +88,7 @@ export default function RootLayout({
       longitude: 25.75,
     },
     image: "https://littlelouisa.co.za/photos/outside.jpg",
-    priceRange: "R495 - R595 per person per night",
+    priceRange: "R595 per person per night",
     checkinTime: "14:00",
     checkoutTime: "10:00",
     amenityFeature: [

@@ -81,7 +81,7 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8 flex-1">
               <div>
                 <p className="uppercase tracking-[0.2em] text-[9px] font-bold opacity-40 mb-1">Sharing</p>
-                <p className="font-[family-name:var(--font-headline)] text-2xl">R495</p>
+                <p className="font-[family-name:var(--font-headline)] text-2xl">R595</p>
                 <p className="text-[9px] opacity-40 uppercase">per person / night</p>
               </div>
               <div>
@@ -92,6 +92,7 @@ export default function Home() {
               <div className="col-span-2 md:col-span-1">
                 <p className="uppercase tracking-[0.2em] text-[9px] font-bold opacity-40 mb-1">Longer stays</p>
                 <p className="font-[family-name:var(--font-headline)] text-lg italic">Special rates available</p>
+                <p className="text-[9px] opacity-40 mt-1">Easter and December: PEAK rates apply</p>
               </div>
             </div>
             <a
